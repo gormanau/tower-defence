@@ -12,8 +12,10 @@
 
 */
 
-import { Window, Document, Debug, Console } from "../dom";
-import { PWA, PWAParams, Page, PageParams, Div, DivParams } from '../pwa';
+import { Window, Document, Debug, Console } from "@wasmdom/dom";
+import { PWA, PWAParams, Page, PageParams, Div, DivParams } from '@wasmdom/pwa';
+
+//import arcade from 'main.ts';
 
 var homePage: Page;
 var secondPage: Page;
@@ -25,6 +27,8 @@ export function run(w: Window, d: Document, c: Console): i32 {
     document = d;
     console = c;
     
+    
+  
     return 0;
 
 }
